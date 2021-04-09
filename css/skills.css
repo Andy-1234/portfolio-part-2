@@ -1,0 +1,1035 @@
+
+@font-face{
+    font-family: good;
+    src: url(fonts/good.ttf);
+  }
+  @font-face{
+    font-family: sato;
+    src: url(fonts/sato.ttf);
+  }
+  /*this is just the base css that ws later put into querys*/
+  /*
+  body{
+  height: 3000px;
+  font-family: sato;
+  }
+  .title{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    left: 45%;
+    font-family: good;
+  }
+  
+  .navbar{
+    position: absolute;
+    left: 0px;
+    top: 10%;
+    width: 20%;
+    height: 100%;
+    visibility: hidden;
+    z-index: 2;
+    background-color: rgb(48, 46, 46);
+    text-decoration: none;
+  }
+  .navbar>ul>li{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+  }
+  .navbar>
+  ul{
+    list-style-type: none;
+  }
+  
+  
+  .about{
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    width: 100%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+    height: 20%;
+  }
+  .about>h1{
+    text-align: center;
+  }
+  .about>a>img{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  .about>p{
+    text-align: center;
+  }
+  
+  
+  
+  
+  .resume{
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    color:rgb(212, 75, 75) ;
+  }
+  .resume>h1{
+    text-align: center;
+  }
+  .resume>a>img{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+  }
+  .resume>p{
+    text-emphasis: center;
+  }
+  
+  
+  
+  
+  .skills{
+    position: absolute;
+    left: 0px;
+    top: 60%;
+    width: 100%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+  }
+  
+  .skills>h1{
+    text-align: center;
+  }
+  .skills>p{
+    text-align: center;
+  }
+  
+  
+  
+  .projects>p{
+    text-align: center;
+  }
+  
+  .qualifications>h1{
+    text-align: center;
+  }
+  .projects{
+    position: absolute;
+    left: 0px;
+    bottom: -20%;
+    width: 100%;
+    background-color: white;
+    color: rgb(212, 75, 75);
+  }
+  
+  .projects>h1{
+    text-align: center;
+  }
+  .projects>a>h1{
+    position: absolute;
+    right: 10%;
+    color: rgb(212, 75, 75);
+  }
+  
+  
+  
+  .dropcon2>a{
+    float: left;
+  }
+  .btn2{
+    position: absolute;
+  }
+  */
+  
+  
+  *{
+    text-decoration: none;
+  }
+  
+  
+  
+  /*all phone querys are based on a phone 320px wide and 480ps tall*/
+   
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 320px) and (orientation: landscape) {
+    .btn2{
+      z-index: 4;
+      border: 1px solid rgb(48, 46, 46);
+      box-shadow: 1px 1px 1px rgb(48, 46, 46);
+      width: 6%;
+    }
+    .btn2>img{
+      width: 90%;
+    }
+  body{
+    height: 1000px;
+    font-family: sato;
+    }
+    .title{
+      position: absolute;
+      top: 0px;
+      text-align: center;
+      left: 28%;
+      font-family: good;
+      font-size: 1em;
+    }
+    /*craetes the navbar that comes out of the left*/
+    .navbar{
+      position: absolute;
+      left: 0px;
+      top: 0%;
+      width: 25%;
+      height: 110%;
+      visibility: hidden;
+      z-index: 2;
+      background-color: rgb(48, 46, 46);
+      text-decoration: none;
+    }
+    .navbar>ul>li{
+      list-style: none;
+      list-style-type: none;
+      text-decoration: none;
+      color: white;
+      font-size: .8em;
+    }
+    .navbar>ul>li>a{
+      color: white;
+      text-decoration: white;
+    }
+    .navbar>ul>li>a>h1{
+      color: rgb(212, 75, 75);
+      text-decoration: rgb(212, 75, 75);
+    }
+    ul{
+      list-style-type: none;
+    }
+    
+    /*the css for the about me*/
+    .skills{
+      position: absolute;
+      left: 0px;
+      top: 20%;
+      width: 100%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+      height: 20%;
+    }
+    .skills>h1{
+      text-align: center;
+      font-size: 1em;
+      color: white;
+    }
+    .skills>p{
+      text-align: center;
+      position: absolute;
+      top: 16%;
+      font-size: .9em;
+    }
+    
+    
+    
+    /*css for the training section */
+    .training{
+      position: absolute;
+      left: 0px;
+      top: 40%;
+      width: 100%;
+      height: 20%;
+      background-color: white;
+      color:rgb(212, 75, 75) ;
+    }
+    .training>h1{
+      text-align: center;
+      font-size: 1em;
+      color: rgb(212, 75, 75);
+    }
+    .training>p{
+      text-align: center;
+      position: absolute;
+      top: 12%;
+    }
+    
+    
+    
+    /*creates the css for the section labeled qualifications*/
+    .Qualifications{
+      position: absolute;
+      left: 0px;
+      top: 60%;
+      width: 100%;
+      height: 20%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+    }
+  
+  
+    .Qualifications>h1{
+      text-align: center;
+      color: white;
+      font-size: 1em;
+    }
+    .Qualifications>p{
+      text-align: center;
+      position: absolute;
+      top: 12%;
+    }
+    
+
+    .btn2{
+      position: absolute;
+    }
+    
+    }
+    
+  
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (min-width : 320px) and (orientation: portrait) {
+      /*places the nav bar on off where it needs to go*/
+      .btn2{
+        z-index: 4;
+        border: 1px solid rgb(48, 46, 46);
+        box-shadow: 1px 1px 1px rgb(48, 46, 46);
+        width: 7%;
+      }
+      .btn2>img{
+        width: 90%;
+      }
+    body{
+      height: 1000px;
+      font-family: sato;
+      }
+      .title{
+        position: absolute;
+        top: 0px;
+        text-align: center;
+        left: 26%;
+        font-family: good;
+        font-size: 1em;
+      }
+      /*craetes the navbar that comes out of the left*/
+      .navbar{
+        position: absolute;
+        left: 0px;
+        top: 0%;
+        width: 25%;
+        height: 110%;
+        visibility: hidden;
+        z-index: 2;
+        background-color: rgb(48, 46, 46);
+        text-decoration: none;
+      }
+      .navbar>ul>li{
+        list-style: none;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+        font-size: .8em;
+      }
+      .navbar>ul>li>a{
+        color: white;
+        text-decoration: white;
+      }
+      .navbar>ul>li>a>h1{
+        color: rgb(212, 75, 75);
+        text-decoration: rgb(212, 75, 75);
+      }
+      ul{
+        list-style-type: none;
+      }
+      
+      /*the css for the about me*/
+      .skills{
+        position: absolute;
+        left: 0px;
+        top: 20%;
+        width: 100%;
+        background-color: rgb(212, 75, 75);
+        color: white;
+        height: 20%;
+      }
+      .skills>h1{
+        text-align: center;
+        font-size: 1em;
+        color: white;
+      }
+      .skills>p{
+        text-align: center;
+        position: absolute;
+        top: 16%;
+        font-size: .9em;
+      }
+      
+      
+      
+      /*css for the training section */
+      .training{
+        position: absolute;
+        left: 0px;
+        top: 40%;
+        width: 100%;
+        height: 20%;
+        background-color: white;
+        color:rgb(212, 75, 75) ;
+      }
+      .training>h1{
+        text-align: center;
+        font-size: 1em;
+        color: rgb(212, 75, 75);
+      }
+      .training>p{
+        text-align: center;
+        position: absolute;
+        top: 12%;
+      }
+      
+      
+      
+      /*creates the css for the section labeled qualifications*/
+      .Qualifications{
+        position: absolute;
+        left: 0px;
+        top: 60%;
+        width: 100%;
+        height: 20%;
+        background-color: rgb(212, 75, 75);
+        color: white;
+      }
+    
+    
+      .Qualifications>h1{
+        text-align: center;
+        color: white;
+        font-size: 1em;
+      }
+      .Qualifications>p{
+        text-align: center;
+        position: absolute;
+        top: 12%;
+      }
+      
+  
+      .btn2{
+        position: absolute;
+      }
+    }
+    
+  
+  
+  
+  /* 
+  
+   Tablets (portrait)
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /*positions the navbar button and styles it*/
+    .btn2{
+      z-index: 4;
+      border: 1px solid rgb(48, 46, 46);
+      box-shadow: 1px 1px 1px rgb(48, 46, 46);
+    }
+    .btn2{
+      position: absolute;
+      top: 4%;
+      left: 0%;
+  
+      width: 4.5%;
+    }
+  body{
+    height: 900px;
+    font-family: sato;
+    }
+    /*sets the css for the title*/
+    .title{
+      position: absolute;
+      top: 0px;
+      text-align: center;
+      left: 11%;
+      font-family: good;
+      font-size: 2em;
+    }
+    /*css for for the navbar*/
+    .navbar{
+      position: absolute;
+      left: 0px;
+      top: 0%;
+      width: 30%;
+      height: 110%;
+      visibility: hidden;
+      z-index: 2;
+      background-color: rgb(48, 46, 46);
+      text-decoration: none;
+    }
+    .navbar>ul>li{
+      list-style: none;
+      list-style-type: none;
+      text-decoration: none;
+      color: white;
+    }
+    .navbar>ul>li>a{
+      color: white;
+      text-decoration: white;
+      font-size: 1em;
+    }
+    .navbar>ul>li>a>h1{
+      color: rgb(212, 75, 75);
+      text-decoration: rgb(212, 75, 75);
+    }
+    .navbar>
+    ul{
+      list-style-type: none;
+    }
+    
+    /*creates the css for the about me section */
+    .skills{
+      position: absolute;
+      left: 0px;
+      top: 20%;
+      width: 50%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+      height: 20%;
+    }
+    .skills>h1{
+      text-align: center;
+      font-size: 2em;
+      position: absolute;
+      top: -10% ;
+      left: 33%;
+    }
+  
+
+    /*the image link css*/
+  
+    .skills>p{
+      text-align: center;
+      font-size: 1em;
+    }
+
+    
+    /*css for the resume section*/
+    .training{
+      position: absolute;
+      left: 50%;
+      top: 20%;
+      width: 50%;
+      height: 20%;
+      background-color: white;
+      color:rgb(212, 75, 75) ;
+    }
+    .training>h1{
+      position: absolute;
+      top: -10%;
+      left: 29%;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .training>p{
+      text-align: center;
+    }
+    
+    /*
+    the top two are together 
+  
+    the bottom two are together creating a 2x2 with the the image/link going to the bottom of both
+    */
+    
+    /*creates the css for the skills section*/
+    .Qualifications{
+      position: absolute;
+      left: 0%;
+      top: 40%;
+      width: 100%;
+      background-color: rgb(48, 46, 46);
+      color: white;
+    }
+  
+
+    .Qualifications>h1{
+      text-align: center;
+    }
+    .Qualifications>p{
+      text-align: center;
+      width: 50%;
+      position: absolute;
+      left: 25%;
+      font-size: 1.1em;
+    }
+    
+    
+
+    
+    
+    
+  
+    .btn2{
+      position: absolute;
+    }
+
+  
+    
+  }
+  
+  /* 
+  for this tablet the min width is the height and the max width is the width
+    Tablets (landscape)
+  
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+     /*positions the navbar button and styles it*/
+     .btn2{
+        z-index: 4;
+        border: 1px solid rgb(48, 46, 46);
+        box-shadow: 1px 1px 1px rgb(48, 46, 46);
+      }
+      .btn2{
+        position: absolute;
+        top: 4%;
+        left: 0%;
+    
+        width: 4.5%;
+      }
+    body{
+      height: 900px;
+      font-family: sato;
+      }
+      /*sets the css for the title*/
+      .title{
+        position: absolute;
+        top: 0px;
+        text-align: center;
+        left: 20%;
+        font-family: good;
+        font-size: 2em;
+      }
+      /*css for for the navbar*/
+      .navbar{
+        position: absolute;
+        left: 0px;
+        top: 0%;
+        width: 30%;
+        height: 110%;
+        visibility: hidden;
+        z-index: 2;
+        background-color: rgb(48, 46, 46);
+        text-decoration: none;
+      }
+      .navbar>ul>li{
+        list-style: none;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+      .navbar>ul>li>a{
+        color: white;
+        text-decoration: white;
+        font-size: 1.2em;
+      }
+      .navbar>ul>li>a>h1{
+        color: rgb(212, 75, 75);
+        text-decoration: rgb(212, 75, 75);
+      }
+      .navbar>
+      ul{
+        list-style-type: none;
+      }
+      
+      /*creates the css for the about me section */
+      .skills{
+        position: absolute;
+        left: 0px;
+        top: 20%;
+        width: 50%;
+        background-color: rgb(212, 75, 75);
+        color: white;
+        height: 20%;
+      }
+      .skills>h1{
+        text-align: center;
+        font-size: 2em;
+        position: absolute;
+        top: -10% ;
+        left: 33%;
+      }
+    
+  
+      /*the image link css*/
+    
+      .skills>p{
+        text-align: center;
+        font-size: 1.2em;
+      }
+  
+      
+      /*css for the resume section*/
+      .training{
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        width: 50%;
+        height: 20%;
+        background-color: white;
+        color:rgb(212, 75, 75) ;
+      }
+      .training>h1{
+        position: absolute;
+        top: -10%;
+        left: 29%;
+        text-align: center;
+        font-size: 2em;
+      }
+  
+      .training>p{
+        text-align: center;
+        font-size: 1.2em;
+      }
+      
+      /*
+      the top two are together 
+    
+      the bottom one is alone
+      /
+      
+      /*creates the css for the skills section*/
+      .Qualifications{
+        position: absolute;
+        left: 0%;
+        top: 40%;
+        width: 100%;
+        background-color: rgb(48, 46, 46);
+        color: white;
+      }
+    
+  
+      .Qualifications>h1{
+        text-align: center;
+      }
+      .Qualifications>p{
+        text-align: center;
+        width: 50%;
+        position: absolute;
+        left: 25%;
+        font-size: 1.1em;
+      }
+      
+      
+  
+      
+      
+      
+    
+      .btn2{
+        position: absolute;
+      }
+  
+    
+      
+
+    
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 1124px) {
+      .btn2{
+        z-index: 4;
+        border: 1px solid rgb(48, 46, 46);
+        box-shadow: 1px 1px 1px rgb(48, 46, 46);
+        position: absolute;
+        left: 0%;
+        top: 9%;
+        width: 3.5%;
+      }
+  
+  body{
+    height: 100%;
+    font-family: sato;
+    }
+    .title{
+      position: absolute;
+      top: 0px;
+      text-align: center;
+      left: 24%;
+      font-family: good;
+      font-size: 2.5em;
+    }
+    
+    .navbar{
+      position: absolute;
+      left: 0px;
+      top: 0%;
+      width: 20%;
+      height: 110%;
+      visibility: hidden;
+      z-index: 2;
+      background-color: rgb(48, 46, 46);
+      text-decoration: none;
+    }
+    .navbar>ul{
+      position: absolute;
+      left: 10%;
+    }
+    .navbar>ul>li{
+      list-style: none;
+      list-style-type: none;
+      text-decoration: none;
+      color: white;
+      font-size: 1.3em;
+    }
+    .navbar>ul>li>a{
+      color: white;
+      text-decoration: white;
+    }
+    .navbar>ul>li>a>h1{
+      color: rgb(212, 75, 75);
+      text-decoration: rgb(212, 75, 75);
+    }
+    .navbar>
+    ul{
+      list-style-type: none;
+    }
+    
+    
+    .skills{
+      position: absolute;
+      left: 0px;
+      top: 20%;
+      width: 33%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+      height: 25%;
+    }
+    .skills>h1{
+      text-align: center;
+      font-size: 1.6em;
+    }
+
+    .skills>p{
+      text-align: center;
+      font-size: 1.4em;
+    }
+    
+    
+    
+    
+    .training{
+      position: absolute;
+      left: 33%;
+      top: 20%;
+      width: 33%;
+      height: 25%;
+      background-color: white;
+      color:rgb(212, 75, 75) ;
+    }
+    .training>h1{
+      text-align: center;
+      font-size: 1.6em;
+    }
+    .training>p{
+      text-emphasis: center;
+      font-size: 1.4em;
+    }
+    
+    
+    
+    
+    .Qualifications{
+      position: absolute;
+      left: 66%;
+      top: 20%;
+      width: 33%;
+      height: 25%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+    }
+    
+    .Qualifications>h1{
+      text-align: center;
+      font-size: 1.6em;
+    }
+    .Qualifications>p{
+      text-align: center;
+      font-size: 1.4em;
+  
+    }
+  
+    
+
+    .btn2{
+      position: absolute;
+    }
+
+    }
+    
+  
+  
+  
+  
+  
+  
+  
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+        .btn2{
+            z-index: 4;
+            border: 1px solid rgb(48, 46, 46);
+            box-shadow: 1px 1px 1px rgb(48, 46, 46);
+            position: absolute;
+            left: 0%;
+            top: 9%;
+            width: 3%;
+          }
+      
+      body{
+        height: 100%;
+        font-family: sato;
+        }
+        .title{
+          position: absolute;
+          top: 0px;
+          text-align: center;
+          left: 34%;
+          font-family: good;
+          font-size: 3em;
+        }
+        
+        .navbar{
+          position: absolute;
+          left: 0px;
+          top: 0%;
+          width: 20%;
+          height: 110%;
+          visibility: hidden;
+          z-index: 2;
+          background-color: rgb(48, 46, 46);
+          text-decoration: none;
+        }
+        .navbar>ul{
+          position: absolute;
+          left: 10%;
+        }
+        .navbar>ul>li{
+          list-style: none;
+          list-style-type: none;
+          text-decoration: none;
+          color: white;
+          font-size: 1.3em;
+        }
+        .navbar>ul>li>a{
+          color: white;
+          text-decoration: white;
+        }
+        .navbar>ul>li>a>h1{
+          color: rgb(212, 75, 75);
+          text-decoration: rgb(212, 75, 75);
+        }
+        .navbar>
+        ul{
+          list-style-type: none;
+        }
+        
+        
+        .skills{
+          position: absolute;
+          left: 0px;
+          top: 20%;
+          width: 33%;
+          background-color: rgb(212, 75, 75);
+          color: white;
+          height: 30%;
+        }
+        .skills>h1{
+            position: absolute;
+            left: 40%;
+          text-align: center;
+          font-size: 2.4em;
+        }
+    
+        .skills>p{
+          text-align: center;
+          font-size: 2.2em;
+        }
+        
+        
+        
+        
+        .training{
+          position: absolute;
+          left: 33%;
+          top: 20%;
+          width: 33%;
+          height: 25%;
+          background-color: white;
+          color:rgb(212, 75, 75) ;
+        }
+        .training>h1{
+          text-align: center;
+          font-size: 2.4em;
+        }
+        .training>p{
+          text-emphasis: center;
+          font-size: 2.2em;
+        }
+        
+        
+        
+        
+        .Qualifications{
+          position: absolute;
+          left: 66%;
+          top: 20%;
+          width: 33%;
+          height: 30%;
+          background-color: rgb(212, 75, 75);
+          color: white;
+        }
+        
+        .Qualifications>h1{
+          text-align: center;
+          font-size: 2.4em;
+        }
+        .Qualifications>p{
+          text-align: center;
+          font-size: 2.2em;
+      
+        }
+      
+        
+    
+        .btn2{
+          position: absolute;
+        }
+
+    }
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

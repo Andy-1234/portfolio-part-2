@@ -1,0 +1,1375 @@
+
+@font-face{
+    font-family: good;
+    src: url(fonts/good.ttf);
+  }
+  @font-face{
+    font-family: sato;
+    src: url(fonts/sato.ttf);
+  }
+
+  
+  *{
+    text-decoration: none;
+  }
+  
+  
+  
+  /*all phone querys are based on a phone 320px wide and 480ps tall*/
+   
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 320px) and (orientation: landscape) {
+      .btn2{
+        z-index: 4;
+        border: 1px solid rgb(48, 46, 46);
+        box-shadow: 1px 1px 1px rgb(48, 46, 46);
+        width: 6%;
+      }
+      .btn2>img{
+        width: 90%;
+      }
+    body{
+      height: 1000px;
+      font-family: sato;
+      }
+      .title{
+        position: absolute;
+        top: 0px;
+        text-align: center;
+        left: 18%;
+        font-family: good;
+        font-size: 1em;
+      }
+      /*craetes the navbar that comes out of the left*/
+      .navbar{
+        position: absolute;
+        left: 0px;
+        top: 0%;
+        width: 25%;
+        height: 110%;
+        visibility: hidden;
+        z-index: 2;
+        background-color: rgb(48, 46, 46);
+        text-decoration: none;
+      }
+      .navbar>ul>li{
+        list-style: none;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+        font-size: .8em;
+      }
+      .navbar>ul>li>a{
+        color: white;
+        text-decoration: white;
+      }
+      .navbar>ul>li>a>h1{
+        color: rgb(212, 75, 75);
+        text-decoration: rgb(212, 75, 75);
+      }
+      ul{
+        list-style-type: none;
+      }
+      
+      /*the css for the about me*/
+      .one{
+        position: absolute;
+        left: 0px;
+        top: 20%;
+        width: 100%;
+        background-color: rgb(212, 75, 75);
+        color: white;
+        height: 40%;
+      }
+      .one>a>h1{
+        text-align: center;
+        font-size: 1em;
+        color: white;
+      }
+      .one>a>img{
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        width: 40%;
+      }
+      
+      
+      
+      
+      /*css for the resume section */
+      .two{
+        position: absolute;
+        left: 0px;
+        top: 60%;
+        width: 100%;
+        height: 40%;
+        background-color: white;
+        color:rgb(212, 75, 75) ;
+      }
+      .two>a>h1{
+        text-align: center;
+        font-size: 1em;
+        color: rgb(212, 75, 75);
+      }
+      .two>a>img{
+        position: absolute;
+        right: 35%;
+        
+        width: 30%;
+      }
+      
+      
+      
+      
+      /*creates the css for the section labeled my skills and training*/
+      .three{
+        position: absolute;
+        left: 0px;
+        top: 100%;
+        width: 100%;
+        height: 40%;
+        background-color: rgb(212, 75, 75);
+        color: white;
+      }
+    
+    
+      .three>a>h1{
+        text-align: center;
+        color: white;
+        font-size: 1em;
+      }
+      
+      .three>a>img{
+        position: absolute;
+        left: 35%;
+        width: 30%;
+      }
+      
+      
+      /*creates css for the past projects section*/
+  
+      
+      
+      .four{
+        position: absolute;
+        left: 0px;
+        top: 140%;
+        width: 100%;
+        height: 40%;
+        background-color: white;
+        color: rgb(212, 75, 75);
+        
+      }
+      .four>a>h1{
+        text-align: center;
+        color: rgb(212, 75, 75);
+        font-size: 1em;
+      }
+      .four>a>img{
+        position: absolute;
+        left: 35%;
+        width: 28%;
+      }
+    
+      /*this changes the secong link in the projects section*/
+    
+      .five{
+        position: absolute;
+        top: 180%;
+        left: 0px;
+        width: 100%;
+        height: 40%;
+        background-color: rgb(212, 75, 75);
+      }
+      .five>a>h1{
+        text-align: center;
+        font-size: 1em;
+        color: white;
+      }
+    
+      .five>a>img{
+        position: absolute;
+        left: 25%;
+        width: 50%;
+      }
+  
+  
+  
+  
+  
+  
+      .six{
+          position: absolute;
+          top: 220%;
+          left: 0px;
+          width: 100%;
+          height: 40%;
+  
+      }
+      .six>a>h1{
+        text-align: center;
+        font-size: 1em;
+        color: rgb(212, 75, 75);
+      }
+      .six>a>img{
+        position: absolute;
+        left: 10%;
+        width: 80%;;
+
+      }
+      
+      
+      
+  
+      .btn2{
+        position: absolute;
+      }
+    }
+    
+  
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (min-width : 320px) and (orientation: portrait) {
+      /*places the nav bar on off where it needs to go*/
+      .btn2{
+        z-index: 4;
+        border: 1px solid rgb(48, 46, 46);
+        box-shadow: 1px 1px 1px rgb(48, 46, 46);
+        width: 6%;
+      }
+      .btn2>img{
+        width: 90%;
+      }
+    body{
+      height: 1000px;
+      font-family: sato;
+      }
+      .title{
+        position: absolute;
+        top: 0px;
+        text-align: center;
+        left: 18%;
+        font-family: good;
+        font-size: 1em;
+      }
+      /*craetes the navbar that comes out of the left*/
+      .navbar{
+        position: absolute;
+        left: 0px;
+        top: 0%;
+        width: 25%;
+        height: 110%;
+        visibility: hidden;
+        z-index: 2;
+        background-color: rgb(48, 46, 46);
+        text-decoration: none;
+      }
+      .navbar>ul>li{
+        list-style: none;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+        font-size: .8em;
+      }
+      .navbar>ul>li>a{
+        color: white;
+        text-decoration: white;
+      }
+      .navbar>ul>li>a>h1{
+        color: rgb(212, 75, 75);
+        text-decoration: rgb(212, 75, 75);
+      }
+      ul{
+        list-style-type: none;
+      }
+      
+      /*the css for the about me*/
+      .one{
+        position: absolute;
+        left: 0px;
+        top: 20%;
+        width: 100%;
+        background-color: rgb(212, 75, 75);
+        color: white;
+        height: 40%;
+      }
+      .one>a>h1{
+        text-align: center;
+        font-size: 1em;
+        color: white;
+      }
+      .one>a>img{
+        position: absolute;
+        top: 20%;
+        left: 18%;
+        width: 70%;
+      }
+      
+      
+      
+      
+      /*css for the resume section */
+      .two{
+        position: absolute;
+        left: 0px;
+        top: 60%;
+        width: 100%;
+        height: 40%;
+        background-color: white;
+        color:rgb(212, 75, 75) ;
+      }
+      .two>a>h1{
+        text-align: center;
+        font-size: 1em;
+        color: rgb(212, 75, 75);
+      }
+      .two>a>img{
+        position: absolute;
+        right: 20%;
+        top: 15%;
+        width: 60%;
+      }
+      
+      
+      
+      
+      /*creates the css for the section labeled my skills and training*/
+      .three{
+        position: absolute;
+        left: 0px;
+        top: 100%;
+        width: 100%;
+        height: 40%;
+        background-color: rgb(212, 75, 75);
+        color: white;
+      }
+    
+    
+      .three>a>h1{
+        text-align: center;
+        color: white;
+        font-size: 1em;
+      }
+      
+      .three>a>img{
+        position: absolute;
+        left: 20%;
+        width: 60%;
+      }
+      
+      
+      /*creates css for the past projects section*/
+  
+      
+      
+      .four{
+        position: absolute;
+        left: 0px;
+        top: 140%;
+        width: 100%;
+        height: 40%;
+        background-color: white;
+        color: rgb(212, 75, 75);
+        
+      }
+      .four>a>h1{
+        text-align: center;
+        color: rgb(212, 75, 75);
+        font-size: 1em;
+      }
+      .four>a>img{
+        position: absolute;
+        left: 24%;
+        width: 55%;
+      }
+    
+      /*this changes the secong link in the projects section*/
+    
+      .five{
+        position: absolute;
+        top: 180%;
+        left: 0px;
+        width: 100%;
+        height: 40%;
+        background-color: rgb(212, 75, 75);
+      }
+      .five>a>h1{
+        text-align: center;
+        font-size: 1em;
+        color: white;
+      }
+    
+      .five>a>img{
+        position: absolute;
+        left: 13%;
+        width: 70%;
+      }
+  
+  
+  
+  
+  
+  
+      .six{
+          position: absolute;
+          top: 220%;
+          left: 0px;
+          width: 100%;
+          height: 40%;
+  
+      }
+      .six>a>h1{
+        text-align: center;
+        font-size: 1em;
+        color: rgb(212, 75, 75);
+      }
+      .six>a>img{
+        position: absolute;
+        left: 10%;
+        width: 80%;;
+
+      }
+      
+      
+      
+  
+      .btn2{
+        position: absolute;
+      }
+      
+    }
+    
+  
+  
+  
+  /* 
+  
+   Tablets (portrait)
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .btn2{
+      z-index: 4;
+      border: 1px solid rgb(48, 46, 46);
+      box-shadow: 1px 1px 1px rgb(48, 46, 46);
+    }
+    .btn2{
+      position: absolute;
+      top: 4%;
+      left: 0%;
+  
+      width: 4.5%;
+    }
+  body{
+    height: 900px;
+    font-family: sato;
+    }
+    /*sets the css for the title*/
+    .title{
+      position: absolute;
+      top: 0px;
+      text-align: center;
+      left: 11%;
+      font-family: good;
+      font-size: 2em;
+    }
+    /*css for for the navbar*/
+    .navbar{
+      position: absolute;
+      left: 0px;
+      top: 0%;
+      width: 30%;
+      height: 110%;
+      visibility: hidden;
+      z-index: 2;
+      background-color: rgb(48, 46, 46);
+      text-decoration: none;
+    }
+    .navbar>ul>li{
+      list-style: none;
+      list-style-type: none;
+      text-decoration: none;
+      color: white;
+    }
+    .navbar>ul>li>a{
+      color: white;
+      text-decoration: white;
+      font-size: 1em;
+    }
+    .navbar>ul>li>a>h1{
+      color: rgb(212, 75, 75);
+      text-decoration: rgb(212, 75, 75);
+    }
+    .navbar>
+    ul{
+      list-style-type: none;
+    }
+    
+    /*the numbers in the class show which one it is from top to bottom */
+    .one{
+      position: absolute;
+      left: 0px;
+      top: 20%;
+      width: 50%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+      height: 40%;
+    }
+    .one>a>h1{
+      text-align: center;
+      font-size: 2em;
+      position: absolute;
+      top: -10% ;
+      left: 16.5%;
+    }
+  
+    .one>a>img{
+      position: absolute;
+      top: 25%;
+      left: 20%;
+      visibility: visible;
+      width: 60%;
+    }
+
+
+    
+    
+    /*css for the resume section*/
+    .two{
+      position: absolute;
+      left: 50%;
+      top: 20%;
+      width: 50%;
+      height: 40%;
+      background-color: white;
+      color:rgb(212, 75, 75) ;
+    }
+    .two>a>h1{
+      position: absolute;
+      top: -10%;
+      left: 35%;
+      text-align: center;
+      font-size: 2em;
+    }
+    .two>a>img{
+      position: absolute;
+      right: 25%;
+      top: 20%;
+      visibility: visible;
+      width: 60%;
+    }
+
+    /*
+    the top two are together 
+  
+    the bottom two are together creating a 2x2 with the the image/link going to the bottom of both
+    */
+    
+    /*creates the css for the skills section*/
+    .three{
+      position: absolute;
+      left: 50%;
+      top: 60%;
+      width: 50%;
+      height: 40%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+    }
+  
+    .three>a>img{
+      position: absolute;
+      top: 27%;
+      left: 25%;
+
+      width: 50%;
+      visibility: visible;
+    }
+    .three>a>h1{
+      text-align: center;
+      position: absolute;
+      font-size: 2em;
+      left: 39%;
+    }
+    
+    
+    
+  /*creates css for the past projects*/
+    
+    .four{
+      position: absolute;
+      left: 0px;
+      top: 60%;
+      width: 50%;
+      height: 40%;
+      background-color: white;
+      color: rgb(212, 75, 75);
+      /*visibility: hidden;*/
+    }
+    
+  
+    
+    .four>a>h1{
+      position: absolute;
+      top: 0%;
+      right: 40%;
+      color: rgb(212, 75, 75);
+      font-size: 2em;
+      text-align: center;
+    }
+  
+    .four>a>img{
+      position: absolute;
+      top: 27%;
+      left: 28%;
+      
+      visibility: visible;
+      width: 50%;
+    }
+    
+    
+    
+    
+  
+    .btn2{
+      position: absolute;
+    }
+    /*places the community section where it need to go on the bottom*/
+    .five{
+      position: absolute;
+      top: 100%;
+      left: 0%;
+      width: 50%;
+      height: 40%;
+    }
+    .five>a>h1{
+      font-size: 2em;
+      position: absolute;
+      top: -10%;
+      left: 28%;
+    }
+    .five>a>img{
+      visibility: visible;
+      width: 80%;
+      position: absolute;
+      left: 10%;
+      top: 25%;
+    }
+    
+    .six{
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        left: 50%;
+        width: 50%;
+        height: 40%;
+    }
+    .six>a>h1{
+        font-size: 2em;
+        color: rgb(212, 75, 75);
+        text-align: center;
+        position: absolute;
+        top: 0%;
+        right: 15%;
+    }
+    .six>a>img{
+      position: absolute;
+      top: 30%;
+
+    }
+    
+  }
+  
+  /* 
+  for this tablet the min width is the height and the max width is the width
+    Tablets (landscape)
+  
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .btn2{
+        z-index: 4;
+        border: 1px solid rgb(48, 46, 46);
+        box-shadow: 1px 1px 1px rgb(48, 46, 46);
+      }
+      .btn2{
+        position: absolute;
+        top: 4%;
+        left: 0%;
+    
+        width: 4.5%;
+      }
+    body{
+      height: 900px;
+      font-family: sato;
+      }
+      /*sets the css for the title*/
+      .title{
+        position: absolute;
+        top: 0px;
+        text-align: center;
+        left: 11%;
+        font-family: good;
+        font-size: 2em;
+      }
+      /*css for for the navbar*/
+      .navbar{
+        position: absolute;
+        left: 0px;
+        top: 0%;
+        width: 30%;
+        height: 110%;
+        visibility: hidden;
+        z-index: 2;
+        background-color: rgb(48, 46, 46);
+        text-decoration: none;
+      }
+      .navbar>ul>li{
+        list-style: none;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+      }
+      .navbar>ul>li>a{
+        color: white;
+        text-decoration: white;
+        font-size: 1em;
+      }
+      .navbar>ul>li>a>h1{
+        color: rgb(212, 75, 75);
+        text-decoration: rgb(212, 75, 75);
+      }
+      .navbar>
+      ul{
+        list-style-type: none;
+      }
+      
+      /*the numbers in the class show which one it is from top to bottom */
+      .one{
+        position: absolute;
+        left: 0px;
+        top: 20%;
+        width: 50%;
+        background-color: rgb(212, 75, 75);
+        color: white;
+        height: 40%;
+      }
+      .one>a>h1{
+        text-align: center;
+        font-size: 2em;
+        position: absolute;
+        top: -10% ;
+        left: 16.5%;
+      }
+    
+      .one>a>img{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        visibility: visible;
+        width: 60%;
+      }
+  
+  
+      
+      
+      /*css for the resume section*/
+      .two{
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        width: 50%;
+        height: 40%;
+        background-color: white;
+        color:rgb(212, 75, 75) ;
+      }
+      .two>a>h1{
+        position: absolute;
+        top: -10%;
+        left: 35%;
+        text-align: center;
+        font-size: 2em;
+      }
+      .two>a>img{
+        position: absolute;
+        right: 25%;
+        top: 20%;
+        visibility: visible;
+        width: 60%;
+      }
+  
+      /*
+      the top two are together 
+    
+      the bottom two are together creating a 2x2 with the the image/link going to the bottom of both
+      */
+      
+      /*creates the css for the skills section*/
+      .three{
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        width: 50%;
+        height: 40%;
+        background-color: rgb(212, 75, 75);
+        color: white;
+      }
+    
+      .three>a>img{
+        position: absolute;
+        top: 27%;
+        left: 25%;
+
+        width: 50%;
+        visibility: visible;
+      }
+      .three>a>h1{
+        text-align: center;
+        position: absolute;
+        font-size: 2em;
+        left: 39%;
+      }
+      
+      
+      
+    /*creates css for the past projects*/
+      
+      .four{
+        position: absolute;
+        left: 0px;
+        top: 60%;
+        width: 50%;
+        height: 40%;
+        background-color: white;
+        color: rgb(212, 75, 75);
+        /*visibility: hidden;*/
+      }
+      
+    
+      
+      .four>a>h1{
+        position: absolute;
+        top: 0%;
+        right: 40%;
+        color: rgb(212, 75, 75);
+        font-size: 2em;
+        text-align: center;
+      }
+    
+      .four>a>img{
+        position: absolute;
+        top: 27%;
+        left: 28%;
+        
+        visibility: visible;
+        width: 50%;
+      }
+      
+      
+      
+      
+    
+      .btn2{
+        position: absolute;
+      }
+      /*places the community section where it need to go on the bottom*/
+      .five{
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 50%;
+        height: 40%;
+      }
+      .five>a>h1{
+        font-size: 2em;
+        position: absolute;
+        top: -10%;
+        left: 28%;
+      }
+      .five>a>img{
+        visibility: visible;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        top: 25%;
+      }
+      
+      .six{
+          position: absolute;
+          top: 100%;
+          right: 0%;
+          left: 50%;
+          width: 50%;
+          height: 40%;
+      }
+      .six>a>h1{
+          font-size: 2em;
+          color: rgb(212, 75, 75);
+          text-align: center;
+          position: absolute;
+          top: 0%;
+          right: 15%;
+      }
+      .six>a>img{
+        position: absolute;
+        top: 30%;
+
+      }
+      
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 1124px) {
+      .btn2{
+        z-index: 4;
+        border: 1px solid rgb(48, 46, 46);
+        box-shadow: 1px 1px 1px rgb(48, 46, 46);
+        position: absolute;
+        left: 0%;
+        top: 9%;
+        width: 4%;
+      }
+  
+  body{
+    height: 100%;
+    font-family: sato;
+    }
+    .title{
+      position: absolute;
+      top: 0px;
+      text-align: center;
+      left: 50%;
+      font-family: good;
+      font-size: 2.5em;
+    }
+    
+    .navbar{
+      position: absolute;
+      left: 0px;
+      top: 0%;
+      width: 20%;
+      height: 110%;
+      visibility: hidden;
+      z-index: 2;
+      background-color: rgb(48, 46, 46);
+      text-decoration: none;
+    }
+    .navbar>ul{
+      position: absolute;
+      left: 10%;
+    }
+    .navbar>ul>li{
+      list-style: none;
+      list-style-type: none;
+      text-decoration: none;
+      color: white;
+      font-size: 1.3em;
+    }
+    .navbar>ul>li>a{
+      color: white;
+      text-decoration: white;
+      font-size: 1.4em;
+    }
+    .navbar>ul>li>a>h1{
+      color: rgb(212, 75, 75);
+      text-decoration: rgb(212, 75, 75);
+    }
+    .navbar>
+    ul{
+      list-style-type: none;
+    }
+    
+    
+    .one{
+      position: absolute;
+      left: 0px;
+      top: 20%;
+      width:33%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+      height: 40%;
+    }
+    .one>a>h1{
+      text-align: center;
+      font-size: 1.8em;
+    }
+    .one>a>img{
+      position: absolute;
+      top: 20%;
+      left: 16%;
+      width: 70%;
+      visibility: visible;
+    }
+    
+    
+    
+    
+    .two{
+      position: absolute;
+      left: 33%;
+      top: 20%;
+      width: 33%;
+      height: 40%;
+      background-color: white;
+      color:rgb(212, 75, 75) ;
+    }
+    .two>a>h1{
+      text-align: center;
+      font-size: 1.8em;
+    }
+    .two>a>img{
+      position: absolute;
+      right: 19%;
+      top: 15%;
+      width: 60%;
+      visibility: visible;
+    }
+    
+    
+    
+    
+    
+    .three{
+      position: absolute;
+      left: 66%;
+      top: 20%;
+      width: 33%;
+      height: 40%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+    }
+    
+    .three>a>h1{
+      text-align: center;
+      font-size: 2em;
+    }
+    
+    .three>a>img{
+      position: absolute;
+      top: 20%;
+      left: 28%;
+      width: 50%;
+      visibility: visible;
+    }
+    
+    
+    
+
+   
+    .four{
+      position: absolute;
+      left: 0%;
+      top: 60%;
+      width: 33%;
+      height: 40%;
+      background-color: white;
+      color: rgb(212, 75, 75);
+    }
+    .four>a>h1{
+      font-size: 1.6em;
+      color: rgb(212, 75, 75);
+      text-align: center;
+    }
+   
+  
+    .four>a>img{
+      position: absolute;
+      
+      left: 28%;
+      width: 50%;
+      visibility: visible;
+    }
+    
+    
+    
+  
+    .btn2{
+      position: absolute;
+    }
+    .five{
+      position: absolute;
+      top: 60%;
+      left: 33%;
+      width: 65%;
+      height: 40%;
+    }
+    .five>a>h1{
+      text-align: center;
+      font-size: 1.6em
+    }
+    .five>a>img{
+      position: absolute;
+      left: 15%;
+      top: 20%;
+      visibility: visible;
+      width: 60%;
+    }
+
+
+
+
+    .six{
+        position: absolute;
+        left: 66%;
+        top: 60%;
+    }
+    .six>a>h1{
+      text-align: center;
+      font-size: 2em;
+      color: rgb(212, 75, 75);
+    }
+    .six>a>img{
+      position: absolute;
+      left: 26%;
+      width: 50%;
+    }
+
+    }
+    
+  
+  
+  
+  
+  
+  
+  
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+      .btn2{
+        z-index: 4;
+        border: 1px solid rgb(48, 46, 46);
+        box-shadow: 1px 1px 1px rgb(48, 46, 46);
+        position: absolute;
+        left: 0%;
+        top: 9%;
+        width: 3%;
+      }
+  
+  body{
+    height: 100%;
+    font-family: sato;
+    }
+    .title{
+      position: absolute;
+      top: 0px;
+      text-align: center;
+      left: 17%;
+      font-family: good;
+      font-size: 2.5em;
+    }
+    
+    .navbar{
+      position: absolute;
+      left: 0px;
+      top: 0%;
+      width: 20%;
+      height: 110%;
+      visibility: hidden;
+      z-index: 2;
+      background-color: rgb(48, 46, 46);
+      text-decoration: none;
+    }
+    .navbar>ul{
+      position: absolute;
+      left: 10%;
+    }
+    .navbar>ul>li{
+      list-style: none;
+      list-style-type: none;
+      text-decoration: none;
+      color: white;
+      font-size: 1.5em;
+    }
+    .navbar>ul>li>a{
+      color: white;
+      text-decoration: white;
+      font-size: 1.4em;
+    }
+    .navbar>ul>li>a>h1{
+      color: rgb(212, 75, 75);
+      text-decoration: rgb(212, 75, 75);
+    }
+    .navbar>
+    ul{
+      list-style-type: none;
+    }
+    
+    
+    .one{
+      position: absolute;
+      left: 0px;
+      top: 20%;
+      width:33%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+      height: 40%;
+    }
+    .one>a>h1{
+      text-align: center;
+      font-size: 2em;
+    }
+    .one>a>img{
+      position: absolute;
+      top: 20%;
+      left: 16%;
+      width: 70%;
+      visibility: visible;
+    }
+    
+    
+    
+    
+    .two{
+      position: absolute;
+      left: 33%;
+      top: 20%;
+      width: 33%;
+      height: 40%;
+      background-color: white;
+      color:rgb(212, 75, 75) ;
+    }
+    .two>a>h1{
+      text-align: center;
+      font-size: 2.2em;
+    }
+    .two>a>img{
+      position: absolute;
+      right: 19%;
+      top: 15%;
+      width: 60%;
+      visibility: visible;
+    }
+    
+    
+    
+    
+    
+    .three{
+      position: absolute;
+      left: 66%;
+      top: 20%;
+      width: 33%;
+      height: 40%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+    }
+    
+    .three>a>h1{
+      text-align: center;
+      font-size: 2.4em;
+    }
+    
+    .three>a>img{
+      position: absolute;
+      top: 20%;
+      left: 28%;
+      width: 50%;
+      visibility: visible;
+    }
+    
+    
+    
+
+   
+    .four{
+      position: absolute;
+      left: 0%;
+      top: 60%;
+      width: 33%;
+      height: 40%;
+      background-color: white;
+      color: rgb(212, 75, 75);
+    }
+    .four>a>h1{
+      font-size: 2em;
+      color: rgb(212, 75, 75);
+      text-align: center;
+    }
+   
+  
+    .four>a>img{
+      position: absolute;
+      top: ;
+      left: ;
+      width: 50%;
+      visibility: visible;
+    }
+    
+    
+    
+  
+    .btn2{
+      position: absolute;
+    }
+    .five{
+      position: absolute;
+      top: 60%;
+      left: 33%;
+      width: 33%;
+      height: 40%;
+    }
+    .five>a>h1{
+      position: absolute;
+      left: 39%;
+      text-align: center;
+      font-size: 1.6em
+    }
+    .five>a>img{
+      position: absolute;
+      left: 15%;
+      top: 20%;
+      visibility: visible;
+      width: 60%;
+    }
+
+
+
+
+    .six{
+      left: 66%;
+      width: 33%;
+        position: absolute;
+        left: 90%;
+        top: 60%;
+
+    }
+    .six>a>h1{
+      position: absolute;
+      left: -40%;
+      text-align: center;
+      font-size: 2em;
+      color: rgb(212, 75, 75);
+    }
+    .six>a>img{
+      position: absolute;
+      top: 25%;
+      left: -55%;
+      width: 60%;
+    }
+      
+    
+    }
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

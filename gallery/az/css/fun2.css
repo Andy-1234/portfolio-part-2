@@ -1,0 +1,555 @@
+/*
+html{
+    background-color: gray;
+}
+header>nav{
+width: 5%;
+  
+    height: 10%;
+    border: oldlace 5px solid;
+    position: fixed;
+}
+nav>ul{display: inline;
+}
+header>nav>ul>li{
+    list-style-type: none;
+
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+}
+.jap>img{position: relative;
+    left: 47%;
+}
+.jap>p{
+    font-size: 3em;
+    position: absolute;
+    left:10% ;
+    top: 27%;
+    height: ;
+    width: 30%;
+    text-align: center;
+}
+.s>img{position: relative;
+    left: 47%;
+}
+.s>p{
+    font-size: 3em;
+    position: absolute;
+    left:10% ;
+    top: 100%;
+    height: ;
+    width: 30%;
+    text-align: center;
+}
+.her>img{position: relative;
+    left: 47%;
+}
+.her>p{
+    font-size: 3em;
+    position: absolute;
+    left:10% ;
+    top: 200%;
+    height: ;
+    width: 30%;
+    text-align: center;
+}
+.heli>img{position: relative;
+    left: 47%;
+}
+.heli>p{
+    font-size: 3em;
+    position: absolute;
+    left:10% ;
+    top: 300%;
+    height: ;
+    width: 30%;
+    text-align: center;
+}
+
+@font-face{
+    font-family: good;
+    src: url(fonts/good.ttf);
+  }
+  @font-face{
+    font-family: sato;
+    src: url(fonts/sato.ttf);
+  }
+
+  
+  *{
+    text-decoration: none;
+  }
+  
+  */
+  
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (min-width : 320px) and (orientation: landscape) {
+        html{
+            background-color: gray;
+        }
+        header>nav{
+        width: 5%;
+          
+            height: 10%;
+            border: oldlace 5px solid;
+            position: fixed;
+        }
+        nav>ul{display: inline;
+        }
+        header>nav>ul>li{
+            list-style-type: none;
+            font-size: 1.45em;
+        }
+        header>nav>ul>li>a{
+            text-decoration: none;
+        }
+        .jap>img{position: relative;
+            left: 47%;
+        }
+        .jap>p{
+            font-size: 3em;
+            position: absolute;
+            left:10% ;
+            top: 27%;
+            height: ;
+            width: 30%;
+            text-align: center;
+        }
+        .s>img{position: relative;
+            left: 47%;
+        }
+        .s>p{
+            font-size: 3em;
+            position: absolute;
+            left:10% ;
+            top: 100%;
+            height: ;
+            width: 30%;
+            text-align: center;
+        }
+        .her>img{position: relative;
+            left: 47%;
+        }
+        .her>p{
+            font-size: 3em;
+            position: absolute;
+            left:10% ;
+            top: 200%;
+            height: ;
+            width: 30%;
+            text-align: center;
+        }
+        .heli>img{position: relative;
+            left: 47%;
+        }
+        .heli>p{
+            font-size: 3em;
+            position: absolute;
+            left:10% ;
+            top: 300%;
+            height: ;
+            width: 30%;
+            text-align: center;
+        }
+        
+        @font-face{
+            font-family: good;
+            src: url(fonts/good.ttf);
+          }
+          @font-face{
+            font-family: sato;
+            src: url(fonts/sato.ttf);
+          }
+        
+          
+          *{
+            text-decoration: none;
+          }
+          
+    
+    }
+    
+  
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (min-width : 320px) and (orientation: portrait) {
+      /*places the nav bar on off where it needs to go*/
+     
+      html{
+        background-color: gray;
+    }
+    header>nav{
+    width: 15%;
+      
+  
+        border: oldlace 5px solid;
+        position: fixed;
+    }
+    nav>ul{display: inline;
+    }
+    header>nav>ul>li{
+        list-style-type: none;
+        font-size: 2em;
+    }
+    header>nav>ul>li>a{
+        text-decoration: none;
+    }
+    .jap>img{position: relative;
+        left: 47%;
+    }
+    .jap>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 20%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    .s>img{position: relative;
+        left: 47%;
+    }
+    .s>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 100%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    .her>img{position: relative;
+        left: 47%;
+    }
+    .her>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 200%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    .heli>img{position: relative;
+        left: 47%;
+    }
+    .heli>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 300%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    
+    @font-face{
+        font-family: good;
+        src: url(fonts/good.ttf);
+      }
+      @font-face{
+        font-family: sato;
+        src: url(fonts/sato.ttf);
+      }
+    
+      
+      *{
+        text-decoration: none;
+      }
+    }
+    
+  
+  
+  
+  /* 
+  
+   Tablets (portrait)
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    
+    html{
+        background-color: gray;
+    }
+    header>nav{
+    width: 5%;
+      
+        height: 10%;
+        border: oldlace 5px solid;
+        position: fixed;
+    }
+    nav>ul{display: inline;
+    }
+    header>nav>ul>li{
+        list-style-type: none;
+    
+    }
+    header>nav>ul>li>a{
+        text-decoration: none;
+    }
+    .jap>img{position: relative;
+        left: 47%;
+    }
+    .jap>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 27%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    .s>img{position: relative;
+        left: 47%;
+    }
+    .s>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 100%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    .her>img{position: relative;
+        left: 47%;
+    }
+    .her>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 200%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    .heli>img{position: relative;
+        left: 47%;
+    }
+    .heli>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 300%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    
+    @font-face{
+        font-family: good;
+        src: url(fonts/good.ttf);
+      }
+      @font-face{
+        font-family: sato;
+        src: url(fonts/sato.ttf);
+      }
+    
+      
+      *{
+        text-decoration: none;
+      }
+  }
+  
+  /* 
+
+    Tablets (landscape)
+  
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+
+    html{
+        background-color: gray;
+    }
+    header>nav{
+    width: 5%;
+      
+        height: 10%;
+        border: oldlace 5px solid;
+        position: fixed;
+    }
+    nav>ul{display: inline;
+    }
+    header>nav>ul>li{
+        list-style-type: none;
+    
+    }
+    header>nav>ul>li>a{
+        text-decoration: none;
+    }
+    .jap>img{position: relative;
+        left: 47%;
+    }
+    .jap>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 27%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    .s>img{position: relative;
+        left: 47%;
+    }
+    .s>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 100%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    .her>img{position: relative;
+        left: 47%;
+    }
+    .her>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 200%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    .heli>img{position: relative;
+        left: 47%;
+    }
+    .heli>p{
+        font-size: 3em;
+        position: absolute;
+        left:10% ;
+        top: 300%;
+        height: ;
+        width: 30%;
+        text-align: center;
+    }
+    
+    @font-face{
+        font-family: good;
+        src: url(fonts/good.ttf);
+      }
+      @font-face{
+        font-family: sato;
+        src: url(fonts/sato.ttf);
+      }
+    
+      
+      *{
+        text-decoration: none;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 1124px) {
+        html{
+            background-color: gray;
+        }
+        header>nav{
+        width: 5%;
+          
+            height: 10%;
+            border: oldlace 5px solid;
+            position: fixed;
+        }
+        nav>ul{display: inline;
+        }
+        header>nav>ul>li{
+            list-style-type: none;
+        
+        }
+        header>nav>ul>li>a{
+            text-decoration: none;
+        }
+        .jap>img{position: relative;
+            left: 47%;
+        }
+        .jap>p{
+            font-size: 3em;
+            position: absolute;
+            left:10% ;
+            top: 27%;
+            height: ;
+            width: 30%;
+            text-align: center;
+        }
+        .s>img{position: relative;
+            left: 47%;
+        }
+        .s>p{
+            font-size: 3em;
+            position: absolute;
+            left:10% ;
+            top: 100%;
+            height: ;
+            width: 30%;
+            text-align: center;
+        }
+        .her>img{position: relative;
+            left: 47%;
+        }
+        .her>p{
+            font-size: 3em;
+            position: absolute;
+            left:10% ;
+            top: 200%;
+            height: ;
+            width: 30%;
+            text-align: center;
+        }
+        .heli>img{position: relative;
+            left: 47%;
+        }
+        .heli>p{
+            font-size: 3em;
+            position: absolute;
+            left:10% ;
+            top: 300%;
+            height: ;
+            width: 30%;
+            text-align: center;
+        }
+        
+        @font-face{
+            font-family: good;
+            src: url(fonts/good.ttf);
+          }
+          @font-face{
+            font-family: sato;
+            src: url(fonts/sato.ttf);
+          }
+        
+          
+          *{
+            text-decoration: none;
+          }
+    }
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

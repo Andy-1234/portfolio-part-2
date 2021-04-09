@@ -1,0 +1,1499 @@
+
+@font-face{
+  font-family: good;
+  src: url(fonts/good.ttf);
+}
+@font-face{
+  font-family: sato;
+  src: url(fonts/sato.ttf);
+}
+/*this is just the base css that ws later put into querys*/
+/*
+body{
+height: 3000px;
+font-family: sato;
+}
+.title{
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  left: 45%;
+  font-family: good;
+}
+
+.navbar{
+  position: absolute;
+  left: 0px;
+  top: 10%;
+  width: 20%;
+  height: 100%;
+  visibility: hidden;
+  z-index: 2;
+  background-color: rgb(48, 46, 46);
+  text-decoration: none;
+}
+.navbar>ul>li{
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.navbar>
+ul{
+  list-style-type: none;
+}
+
+
+.about{
+  position: absolute;
+  left: 0px;
+  top: 20%;
+  width: 100%;
+  background-color: rgb(212, 75, 75);
+  color: white;
+  height: 20%;
+}
+.about>h1{
+  text-align: center;
+}
+.about>a>img{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.about>p{
+  text-align: center;
+}
+
+
+
+
+.resume{
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  width: 100%;
+  height: 20%;
+  background-color: white;
+  color:rgb(212, 75, 75) ;
+}
+.resume>h1{
+  text-align: center;
+}
+.resume>a>img{
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+.resume>p{
+  text-emphasis: center;
+}
+
+
+
+
+.skills{
+  position: absolute;
+  left: 0px;
+  top: 60%;
+  width: 100%;
+  background-color: rgb(212, 75, 75);
+  color: white;
+}
+
+.skills>h1{
+  text-align: center;
+}
+.skills>p{
+  text-align: center;
+}
+
+
+
+.projects>p{
+  text-align: center;
+}
+
+.qualifications>h1{
+  text-align: center;
+}
+.projects{
+  position: absolute;
+  left: 0px;
+  bottom: -20%;
+  width: 100%;
+  background-color: white;
+  color: rgb(212, 75, 75);
+}
+
+.projects>h1{
+  text-align: center;
+}
+.projects>a>h1{
+  position: absolute;
+  right: 10%;
+  color: rgb(212, 75, 75);
+}
+
+
+
+.dropcon2>a{
+  float: left;
+}
+.btn2{
+  position: absolute;
+}
+*/
+
+
+*{
+  text-decoration: none;
+}
+
+
+  /* Smartphones (landscape) ----------- */
+  @media only screen and (min-width : 320px) and (orientation: landscape) {
+  .btn2{
+    z-index: 4;
+    border: 1px solid rgb(48, 46, 46);
+    box-shadow: 1px 1px 1px rgb(48, 46, 46);
+    width: 6%;
+  }
+  .btn2>img{
+    width: 90%;
+  }
+body{
+  height: 1000px;
+  font-family: sato;
+  }
+  .title{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    left: 18%;
+    font-family: good;
+    font-size: 1em;
+  }
+  /*craetes the navbar that comes out of the left*/
+  .navbar{
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    width: 25%;
+    height: 110%;
+    visibility: hidden;
+    z-index: 2;
+    background-color: rgb(48, 46, 46);
+    text-decoration: none;
+  }
+  .navbar>ul>li{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+  }
+  .navbar>ul>li>a{
+    color: white;
+    text-decoration: white;
+  }
+  .navbar>ul>li>a>h1{
+    color: rgb(212, 75, 75);
+    text-decoration: rgb(212, 75, 75);
+  }
+  ul{
+    list-style-type: none;
+  }
+  
+  /*the css for the about me*/
+  .about{
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    width: 100%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+    height: 20%;
+  }
+  .about>a>h1{
+    text-align: center;
+    font-size: 1em;
+    color: white;
+  }
+  .about>a>img{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    visibility: hidden;
+  }
+  .about>p{
+    text-align: center;
+    position: absolute;
+    top: 16%;
+    font-size: .9em;
+  }
+  
+  
+  
+  /*css for the resume section */
+  .resume{
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    color:rgb(212, 75, 75) ;
+  }
+  .resume>a>h1{
+    text-align: center;
+    font-size: 1em;
+    color: rgb(212, 75, 75);
+  }
+  .resume>a>img{
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    visibility: hidden;
+  }
+  .resume>p{
+    text-align: center;
+    position: absolute;
+    top: 12%;
+  }
+  
+  
+  
+  /*creates the css for the section labeled my skills and training*/
+  .skills{
+    position: absolute;
+    left: 0px;
+    top: 60%;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+  }
+
+
+  .skills>a>h1{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+  }
+  .skills>p{
+    text-align: center;
+    position: absolute;
+    top: 12%;
+  }
+  .skills>a>img{
+    visibility: hidden;
+  }
+  
+  
+  /*creates css for the past projects section*/
+  .projects>p{
+    text-align: center;
+    position: absolute;
+    top: 12%;
+  }
+  
+  .qualifications>h1{
+    text-align: center;
+  }
+  .projects{
+    position: absolute;
+    left: 0px;
+    top: 80%;
+    width: 100%;
+    background-color: white;
+    color: rgb(212, 75, 75);
+    /*visibility: hidden;*/
+  }
+  
+  .proa>h1{
+    text-align: center;
+    font-size: 1em;
+    color: rgb(212, 75, 75);
+  }
+.pro{
+  visibility: hidden;
+}
+  /*this changes the secong link in the projects section*/
+
+  .community{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(212, 75, 75);
+  }
+  .community>a>h1{
+    text-align: center;
+    font-size: 1em;
+    color: white;
+  }
+  .community>p{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 12%;
+  }
+  .community>a>img{
+    visibility: hidden;
+  }
+  
+  
+  
+  
+
+  .btn2{
+    position: absolute;
+  }
+  
+  }
+  
+
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (min-width : 320px) and (orientation: portrait) {
+    /*places the nav bar on off where it needs to go*/
+    .btn2{
+      z-index: 4;
+      border: 1px solid rgb(48, 46, 46);
+      box-shadow: 1px 1px 1px rgb(48, 46, 46);
+      position: absolute;
+      left: 0;
+      top: 10%;
+      
+    }
+    .btn2>img{
+      width: 80%;
+    }
+  body{
+    height: 576px;
+    font-family: sato;
+    }
+    /*creates the styles for the title that says the portfolio of andy*/
+    .title{
+      position: absolute;
+      top: 5%;
+      text-align: center;
+      left: 10%;
+      font-family: good;
+      font-size: 1em;
+    }
+    /*creates the navbar*/
+  .navbar{
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    width: 40%;
+    height: 124%;
+    visibility: hidden;
+    z-index: 2;
+    background-color: rgb(48, 46, 46);
+    text-decoration: none;
+  }
+  .navbar>ul>li{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+  }
+  .navbar>ul>li>a{
+    color: white;
+    text-decoration: white;
+  }
+  .navbar>ul>li>a>h1{
+    color: rgb(212, 75, 75);
+    text-decoration: rgb(212, 75, 75);
+  }
+    
+    ul{
+      list-style-type: none;
+    }
+    
+    
+    body>.about{
+      position: absolute;
+      left: 0px;
+      top: 20%;
+      width: 100%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+      height: 20%;
+      
+    }
+    .about>a>h1{
+      position: absolute;
+      left: 38%;
+      top: 0%;
+      text-align: center;
+      font-size: 1em;
+      color: white;
+      text-decoration: none;
+    }
+    .about>a>img{
+      position: absolute;
+      top: 50%;
+      left: 44%;
+      width:8%;
+      visibility: hidden;
+      
+    }
+    .about>p{
+      position: absolute;
+      top: 10%;
+      text-align: center;
+      font-size: .9em;
+    }
+    
+    
+    
+    
+    .resume{
+      position: absolute;
+      left: 0px;
+      top: 40%;
+      width: 100%;
+      height: 20%;
+      background-color: white;
+      color:rgb(212, 75, 75) ;
+    }
+    .resume>a>h1{
+      text-align: center;
+      font-size: 1em;
+      color: rgb(212, 75, 75);
+      text-decoration: white;
+    }
+    .resume>a>img{
+      position: absolute;
+      left: 42%;
+      top: 52%;
+      width: 12%;
+      visibility: hidden;
+    }
+    .resume>p{
+      text-align: center;
+      font-size: 1em;
+      position: absolute;
+      top: 9%;
+    }
+    
+    
+    
+    
+    .skills{
+      position: absolute;
+      left: 0px;
+      top: 60%;
+      width: 100%;
+      height: 20%;
+      background-color: rgb(212, 75, 75);
+      color: white;
+    }
+  
+    .skills>a>img{
+      position: absolute;
+      left: 40%;
+      width: 12%;
+      visibility: hidden;
+    }
+    .skills>a>h1{
+      text-align: center;
+      font-size: 1em;
+      color: white;
+      position: absolute;
+      top: 0%;
+      left: 27%;
+    }
+    .skills>p{
+      text-align: center;
+      font-size: 1em;
+      position: absolute;
+      top: 11%;
+    }
+    
+    
+    
+    .projects>p{
+      text-align: center;
+      font-size: 1em;
+      position: absolute;
+      top: 9%;
+    }
+    
+
+    .projects{
+      position: absolute;
+      left: 0px;
+      bottom: 1%;
+      width: 100%;
+      height: 20%;
+      background-color: white;
+      color: rgb(212, 75, 75);
+      /*visibility: hidden;*/
+    }
+    
+    .projects>a>h1{
+      text-align: center;
+      font-size: 1em;
+      color: rgb(212, 75, 75);
+    }
+    .pro{
+visibility: hidden;
+    }
+    .community{
+      position: absolute;
+      top: 100%;
+      left: 0px;
+      
+      width: 100%;
+      height: 20%;
+      background-color: rgb(212, 75, 75);
+    }
+    .community>a>h1{
+      text-align: center;
+      font-size: 1em;
+      color: white;
+    }
+    .community>p{
+      text-align: center;
+      color: white;
+      position: absolute;
+      top: 12%;
+    }
+    .community>a>img{
+      visibility: hidden;
+    }
+    
+    
+    
+
+    .btn2{
+      position: absolute;
+    }
+    
+  }
+  
+
+
+
+/* 
+
+ Tablets (portrait)
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /*positions the navbar button and styles it*/
+  .btn2{
+    z-index: 4;
+    border: 1px solid rgb(48, 46, 46);
+    box-shadow: 1px 1px 1px rgb(48, 46, 46);
+  }
+  .btn2{
+    position: absolute;
+    top: 4%;
+    left: 0%;
+
+    width: 4.5%;
+  }
+body{
+  height: 900px;
+  font-family: sato;
+  }
+  /*sets the css for the title*/
+  .title{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    left: 11%;
+    font-family: good;
+    font-size: 2em;
+  }
+  /*css for for the navbar*/
+  .navbar{
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    width: 30%;
+    height: 110%;
+    visibility: hidden;
+    z-index: 2;
+    background-color: rgb(48, 46, 46);
+    text-decoration: none;
+  }
+  .navbar>ul>li{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+  }
+  .navbar>ul>li>a{
+    color: white;
+    text-decoration: white;
+    font-size: 1em;
+  }
+  .navbar>ul>li>a>h1{
+    color: rgb(212, 75, 75);
+    text-decoration: rgb(212, 75, 75);
+  }
+  .navbar>
+  ul{
+    list-style-type: none;
+  }
+  
+  /*creates the css for the about me section */
+  .about{
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    width: 50%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+    height: 20%;
+  }
+  .about>a>h1{
+    text-align: center;
+    font-size: 2em;
+    position: absolute;
+    top: -10% ;
+    left: 16.5%;
+  }
+
+  .about>a>img{
+    position: absolute;
+    top: 40%;
+    left: 23%;
+    visibility: visible;
+    width: 6%;
+  }
+  /*the image link css*/
+
+  .about>p{
+    text-align: center;
+    font-size: 1em;
+  }
+  .about>.aboutp{
+    text-align:center;
+    width: 50%;
+  }
+  
+  
+  
+  /*css for the resume section*/
+  .resume{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    width: 50%;
+    height: 20%;
+    background-color: white;
+    color:rgb(212, 75, 75) ;
+  }
+  .resume>a>h1{
+    position: absolute;
+    top: -10%;
+    left: 29%;
+    text-align: center;
+    font-size: 2em;
+  }
+  .resume>a>img{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    visibility: visible;
+    width: 17%;
+  }
+  .resume>p{
+    text-align: center;
+  }
+  
+  /*
+  the top two are together 
+
+  the bottom two are together creating a 2x2 with the the image/link going to the bottom of both
+  */
+  
+  /*creates the css for the skills section*/
+  .skills{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 50%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+  }
+
+  .skills>a>img{
+    position: absolute;
+    top: 50%;
+    right: 64%;
+    width: 25%;
+    visibility: visible;
+  }
+  .skills>a>h1{
+    text-align: center;
+  }
+  .skills>p{
+    text-align: center;
+  }
+  
+  
+/*creates css for the past projects*/
+  
+  .projects>p{
+    text-align: center;
+  }
+
+  .projects{
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    width: 50%;
+    background-color: white;
+    color: rgb(212, 75, 75);
+    /*visibility: hidden;*/
+  }
+  
+
+  
+  .projects>a>h1{
+    position: absolute;
+    top: -29.5px;
+    right: 25%;
+    color: rgb(212, 75, 75);
+    font-size: 2.2em;
+    text-align: center;
+  }
+
+  .projects>a>img{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    
+    visibility: visible;
+    width: 14%;
+  }
+  
+  
+  
+  
+
+  .btn2{
+    position: absolute;
+  }
+  /*places the community section where it need to go on the bottom*/
+  .community{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 50%;
+  }
+  .community>a>h1{
+    font-size: 2em;
+    position: absolute;
+    top: -10%;
+    left: 19%;
+  }
+  .community>a>img{
+    visibility: visible;
+    width: 32%;
+    position: absolute;
+    left: 32%;
+    top: 45%;
+  }
+
+  
+}
+
+/* 
+for this tablet the min width is the height and the max width is the width
+  Tablets (landscape)
+
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .btn2{
+    z-index: 4;
+    border: 1px solid rgb(48, 46, 46);
+    box-shadow: 1px 1px 1px rgb(48, 46, 46);
+  }
+  .btn2{
+    position: absolute;
+    top: 4%;
+    left: 0%;
+
+    width: 4.5%;
+  }
+body{
+  height: 900px;
+  font-family: sato;
+  }
+  /*sets the css for the title*/
+  .title{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    left: 11%;
+    font-family: good;
+    font-size: 2em;
+  }
+  /*css for for the navbar*/
+  .navbar{
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    width: 30%;
+    height: 110%;
+    visibility: hidden;
+    z-index: 2;
+    background-color: rgb(48, 46, 46);
+    text-decoration: none;
+  }
+  .navbar>ul>li{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+  }
+  .navbar>ul>li>a{
+    color: white;
+    text-decoration: white;
+    font-size: 1em;
+  }
+  .navbar>ul>li>a>h1{
+    color: rgb(212, 75, 75);
+    text-decoration: rgb(212, 75, 75);
+  }
+  .navbar>
+  ul{
+    list-style-type: none;
+  }
+  
+  /*creates the css for the about me section */
+  .about{
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    width: 50%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+    height: 20%;
+  }
+  .about>a>h1{
+    text-align: center;
+    font-size: 2em;
+    position: absolute;
+    top: -15% ;
+    left: 33%;
+  }
+
+  .about>a>img{
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    visibility: visible;
+    width: 8%;
+  }
+  /*the image link css*/
+
+  .about>p{
+    text-align: center;
+    font-size: 1em;
+  }
+  .about>.aboutp{
+    text-align:center;
+    width: 95%;
+  }
+  
+  
+  
+  /*css for the resume section*/
+  .resume{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    width: 50%;
+    height: 20%;
+    background-color: white;
+    color:rgb(212, 75, 75) ;
+  }
+  .resume>a>h1{
+    position: absolute;
+    top: -15%;
+    left: 29%;
+    text-align: center;
+    font-size: 2em;
+  }
+  .resume>a>img{
+    position: absolute;
+    right: 44%;
+    top: 57%;
+    visibility: visible;
+    width: 13%;
+  }
+  .resume>p{
+    text-align: center;
+    width: 100%;
+  }
+  
+  /*
+  the top two are together 
+
+  the bottom two are together creating a 2x2 with the the image/link going to the bottom of both
+  */
+  
+  /*creates the css for the skills section*/
+  .skills{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 50%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+  }
+
+  .skills>a>img{
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    width: 20%;
+    visibility: visible;
+  }
+  .skills>a>h1{
+    text-align: center;
+  }
+  .skills>p{
+    text-align: center;
+  }
+  
+  
+/*creates css for the past projects*/
+  
+
+  .projects{
+    position: absolute;
+    left: 0px;
+    top: 40%;
+    width: 50%;
+    background-color: white;
+    color: rgb(212, 75, 75);
+    /*visibility: hidden;*/
+  }
+  
+
+  
+  .projects>a>h1{
+    position: absolute;
+    top: -29.5px;
+    right: 25%;
+    color: rgb(212, 75, 75);
+    font-size: 2em;
+    text-align: center;
+  }
+  .projects>p{
+    text-align: center;
+
+  }
+
+
+  .pro>img{
+    margin-top: 18%;
+    margin-left: 40.5%;
+    position: absolute;
+    top: 20%;
+    visibility: visible;
+    width: 18%;
+  }
+  
+  
+  
+  
+
+  .btn2{
+    position: absolute;
+  }
+  /*places the community section where it need to go on the bottom*/
+  .community{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    width: 50%;
+  }
+  .community>a>h1{
+    font-size: 2em;
+    position: absolute;
+    top: -10%;
+    left: 19%;
+  }
+  .community>a>img{
+    visibility: visible;
+    width: 29%;
+    position: absolute;
+    left: 32%;
+    top: 45%;
+  }
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Desktops and laptops ----------- */
+  @media only screen  and (min-width : 1124px) {
+    .btn2{
+      z-index: 4;
+      border: 1px solid rgb(48, 46, 46);
+      box-shadow: 1px 1px 1px rgb(48, 46, 46);
+      position: absolute;
+      left: 0%;
+      top: 9%;
+      width: 4%;
+    }
+
+body{
+  height: 100%;
+  font-family: sato;
+  }
+  .title{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    left: 17%;
+    font-family: good;
+    font-size: 2.5em;
+  }
+  
+  .navbar{
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    width: 20%;
+    height: 110%;
+    visibility: hidden;
+    z-index: 2;
+    background-color: rgb(48, 46, 46);
+    text-decoration: none;
+  }
+  .navbar>ul{
+    position: absolute;
+    left: 10%;
+  }
+  .navbar>ul>li{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+  .navbar>ul>li>a{
+    color: white;
+    text-decoration: white;
+  }
+  .navbar>ul>li>a>h1{
+    color: rgb(212, 75, 75);
+    text-decoration: rgb(212, 75, 75);
+  }
+  .navbar>
+  ul{
+    list-style-type: none;
+  }
+  
+  
+  .about{
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    width: 33%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+    height: 20%;
+  }
+  .about>a>h1{
+    text-align: center;
+  }
+  .about>a>img{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    width: 12%;
+    visibility: visible;
+  }
+  .about>p{
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  
+  
+  
+  .resume{
+    position: absolute;
+    left: 33%;
+    top: 20%;
+    width: 33%;
+    height: 20%;
+    background-color: white;
+    color:rgb(212, 75, 75) ;
+  }
+  .resume>a>h1{
+    text-align: center;
+    font-size: 1.6em;
+  }
+  .resume>a>img{
+    position: absolute;
+    right: 42%;
+    top: 55%;
+    visibility: visible;
+  }
+  .resume>p{
+    text-emphasis: center;
+    font-size: 1.2em;
+  }
+  
+  
+  
+  
+  .skills{
+    position: absolute;
+    left: 66%;
+    top: 20%;
+    width: 33%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+  }
+  
+  .skills>h1{
+    text-align: center;
+    font-size: 1.6em;
+  }
+  .skills>p{
+    text-align: center;
+    font-size: 1.2em;
+
+  }
+  .skills>a>img{
+    position: absolute;
+    top: 55%;
+    left: 38%;
+    width: 25%;
+    visibility: visible;
+  }
+  
+  
+  
+ 
+  .projects{
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    width: 75%;
+    height: 20%;
+    background-color: white;
+    color: rgb(212, 75, 75);
+  }
+  
+
+
+  .projects>.proa>h1{
+    position: absolute;
+    top: 0%;
+    left: 22.8%;
+    color: rgb(212, 75, 75);
+    font-size: 1.6em; 
+  }
+
+  .projects>p{
+    text-align: center;
+    position: absolute;
+    left: -8%;
+    width: 75%;
+    font-size: 1.2em;
+  }
+
+  .pro{
+    visibility: visible;
+    position: absolute;
+    top: 15%;
+    left: 24.5%;
+    margin-top: 10%;
+  }
+  .pro>img{
+    width: 50%;
+  }
+  
+
+  .btn2{
+    position: absolute;
+  }
+  .community{
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    height: 20%;
+  }
+  .community>a>h1{
+    text-align: center;
+    font-size: 1.6em
+  }
+  .community>p{
+    position: absolute;
+    left: 20%;
+    font-size: 1.2em;
+  }
+  .community>a>img{
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    visibility: visible;
+    width: 13%;
+  }
+  }
+  
+
+
+
+
+
+
+
+  /* Large screens ----------- */
+  @media only screen  and (min-width : 1500px) {
+    .btn2{
+      z-index: 4;
+      border: 1px solid rgb(48, 46, 46);
+      box-shadow: 1px 1px 1px rgb(48, 46, 46);
+      position: absolute;
+      left: 0%;
+      top: 9%;
+      width: 3%;
+    }
+
+body{
+  height: 100%;
+  font-family: sato;
+  }
+  .title{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    left: 26%;
+    font-family: good;
+    font-size: 2.4em;
+  }
+  
+  .navbar{
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    width: 20%;
+    height: 110%;
+    visibility: hidden;
+    z-index: 2;
+    background-color: rgb(48, 46, 46);
+    text-decoration: none;
+  }
+  .navbar>ul{
+    position: absolute;
+    left: 10%;
+  }
+  .navbar>ul>li{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+  }
+  .navbar>ul>li>a{
+    color: white;
+    text-decoration: white;
+  }
+  .navbar>ul>li>a>h1{
+    color: rgb(212, 75, 75);
+    text-decoration: rgb(212, 75, 75);
+  }
+  .navbar>
+  ul{
+    list-style-type: none;
+  }
+  
+  
+  .about{
+    position: absolute;
+    left: 0px;
+    top: 20%;
+    width: 33%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+    height: 25%;
+  }
+  .about>a>h1{
+    text-align: center;
+    font-size: 1.8em;
+  }
+  .about>a>img{
+    position: absolute;
+    top: 41.5%;
+    left: 44%;
+    width: 11%;
+    visibility: visible;
+  }
+  .about>p{
+    text-align: center;
+    font-size: 1.3em;
+  }
+  
+  
+  
+  
+  .resume{
+    position: absolute;
+    left: 33%;
+    top: 20%;
+    width: 33%;
+    height: 20%;
+    background-color: white;
+    color:rgb(212, 75, 75) ;
+  }
+  .resume>a>h1{
+    text-align: center;
+    font-size: 1.8em;
+  }
+  .resume>a>img{
+    position: absolute;
+    right: 44%;
+    top: 55%;
+    width: 16.5%;
+    visibility: visible;
+  }
+  .resume>p{
+    text-emphasis: center;
+    font-size: 1.3em;
+  }
+  
+  
+  
+  
+  .skills{
+    position: absolute;
+    left: 66%;
+    top: 20%;
+    width: 33%;
+    height: 25%;
+    background-color: rgb(212, 75, 75);
+    color: white;
+  }
+  
+  .skills>h1{
+    text-align: center;
+    font-size: 1.8em;
+  }
+  .skills>p{
+    text-align: center;
+    font-size: 1.3em;
+
+  }
+  .skills>a>img{
+    position: absolute;
+    top: 46%;
+    left: 38%;
+    width: 25%;
+    visibility: visible;
+  }
+  
+  
+  
+ 
+  .projects{
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    width: 75%;
+    height: 20%;
+    background-color: white;
+    color: rgb(212, 75, 75);
+  }
+  
+
+
+  .projects>.proa>h1{
+    position: absolute;
+    top: 0%;
+    left: 26.4%;
+    color: rgb(212, 75, 75);
+    font-size: 1.8em; 
+  }
+
+  .projects>p{
+    text-align: center;
+    position: absolute;
+    left: -8%;
+    width: 75%;
+    font-size: 1.3em;
+  }
+
+  .pro{
+    visibility: visible;
+    position: absolute;
+    top: 2%;
+    left: 24.5%;
+    margin-top: 10%;
+  }
+  .pro>img{
+    width: 60%;
+  }
+  
+
+  .btn2{
+    position: absolute;
+  }
+  .community{
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    height: 25%;
+  }
+  .community>a>h1{
+    text-align: center;
+    font-size: 1.8em
+  }
+  .community>p{
+    position: absolute;
+    left: 20%;
+    font-size: 1.3em;
+    margin-left: 8%;
+  }
+  .community>a>img{
+    position: absolute;
+    left: 42%;
+    top: 40%;
+    visibility: visible;
+    width: 11%;
+  }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,457 @@
+/*
+body{
+    margin: 0px;
+}
+header{
+    position: absolute;
+    top: 0px;
+    height: 15%;
+    width: 100%;
+    background-color: rgb(164, 233, 233);
+}
+.title{
+    position: absolute;
+    left: 40%;
+    
+
+}
+.navbar{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+}
+.navbar>p{
+    font-size: 25px;
+    text-shadow: ;
+}
+.navbar>p>a{
+    text-decoration: none;
+
+}
+.navbar>p>a:hover{
+    color: rgb(255, 255, 255);
+}
+.inner{
+    position: absolute;
+    top: 15%;
+}
+.inner{
+    height: 25%;
+    width: 100%;
+}
+.inner>img:first-of-type{
+position: absolute;
+left: 15%;
+top: 20%;
+}
+.inner>ul{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+}
+.inner>h1{
+    position: absolute;
+    top: 17%;
+    right: 10%;
+}
+.inner>ul>li{
+    list-style-type: none;
+}
+.inner>ul>li>a{
+    color: #5252e6;
+    text-decoration: none;
+}
+.inner>ul>li>a:hover{
+    color: rgb(164, 233, 233);
+}
+.inner>img:nth-of-type(2){
+    position: absolute;
+    top:100%;
+    right: 60%;
+}
+.inner>img:nth-of-type(3){
+    position: absolute;
+    top:20% ;
+    left: 43%;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    height: 15%;
+    width: 100%;
+    background-color: rgb(164, 233, 233);
+}
+footer>ul:first-of-type{
+    position: absolute;
+    left: 42%;
+}
+
+footer>ul>li{
+    list-style-type: none;
+}
+footer>ul>li>a{
+    text-decoration: none;
+
+}
+footer>ul>li>a:hover{
+    color: rgb(255, 255, 255);
+}
+footer>ul:last-of-type{
+    position: absolute;
+    top: 20%;
+    right: 44%;
+}
+
+
+*/
+    
+    
+  
+  @media only screen  and (min-width : 1000px) {
+
+    body{
+        margin: 0px;
+    }
+    header{
+        position: absolute;
+        top: 0px;
+        height: 15%;
+        width: 100%;
+        background-color: rgb(164, 233, 233);
+    }
+    .title{
+        position: absolute;
+        left: 40%;
+        
+    
+    }
+    .navbar{
+        position: absolute;
+        top: 50%;
+        left: 43%;
+    }
+    .navbar>p{
+        font-size: 25px;
+        text-shadow: ;
+    }
+    .navbar>p>a{
+        text-decoration: none;
+    
+    }
+    .navbar>p>a:hover{
+        color: rgb(255, 255, 255);
+    }
+    .inner{
+        position: absolute;
+        top: 15%;
+    }
+    .inner{
+        height: 25%;
+        width: 100%;
+    }
+    .inner>img:first-of-type{
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    }
+    .inner>ul{
+        position: absolute;
+        top: 25%;
+        right: 10%;
+    }
+    .inner>h1{
+        position: absolute;
+        top: 17%;
+        right: 5%;
+        font-size: 20px;
+    }
+    .inner>ul>li{
+        list-style-type: none;
+    }
+    .inner>ul>li>a{
+        color: #5252e6;
+        text-decoration: none;
+    }
+    .inner>ul>li>a:hover{
+        color: rgb(164, 233, 233);
+    }
+    .inner>img:nth-of-type(2){
+        position: absolute;
+        top:100%;
+        right: 58%;
+    }
+    .inner>img:nth-of-type(3){
+        position: absolute;
+        top:20% ;
+        left: 43%;
+    }
+    
+    
+    footer{
+        position: absolute;
+        bottom: 0px;
+        height: 15%;
+        width: 100%;
+        background-color: rgb(164, 233, 233);
+    }
+    footer>ul:first-of-type{
+        position: absolute;
+        left: 37%;
+        top: -15%;
+    }
+    
+    footer>ul>li{
+        list-style-type: none;
+    }
+    footer>ul>li>a{
+        text-decoration: none;
+    
+    }
+    footer>ul>li>a:hover{
+        color: rgb(255, 255, 255);
+    }
+    footer>ul:last-of-type{
+        position: absolute;
+        top: 10%;
+        right: 37%;
+    }
+    }
+    
+  
+    
+    
+    
+    
+    /* Desktops and laptops ----------- */
+    @media only screen  and (min-width : 1224px) {
+    
+
+        body{
+            margin: 0px;
+        }
+        header{
+            position: absolute;
+            top: 0px;
+            height: 15%;
+            width: 100%;
+            background-color: rgb(164, 233, 233);
+        }
+        .title{
+            position: absolute;
+            left: 40%;
+            
+        
+        }
+        .navbar{
+            position: absolute;
+            top: 50%;
+            left: 43%;
+        }
+        .navbar>p{
+            font-size: 25px;
+            text-shadow: ;
+        }
+        .navbar>p>a{
+            text-decoration: none;
+        
+        }
+        .navbar>p>a:hover{
+            color: rgb(255, 255, 255);
+        }
+        .inner{
+            position: absolute;
+            top: 15%;
+        }
+        .inner{
+            height: 25%;
+            width: 100%;
+        }
+        .inner>img:first-of-type{
+        position: absolute;
+        left: 15%;
+        top: 20%;
+        }
+        .inner>ul{
+            position: absolute;
+            top: 25%;
+            right: 20%;
+        }
+        .inner>h1{
+            position: absolute;
+            top: 17%;
+            right: 10%;
+        }
+        .inner>ul>li{
+            list-style-type: none;
+        }
+        .inner>ul>li>a{
+            color: #5252e6;
+            text-decoration: none;
+        }
+        .inner>ul>li>a:hover{
+            color: rgb(164, 233, 233);
+        }
+        .inner>img:nth-of-type(2){
+            position: absolute;
+            top:100%;
+            right: 60%;
+        }
+        .inner>img:nth-of-type(3){
+            position: absolute;
+            top:20% ;
+            left: 43%;
+        }
+        
+        
+        footer{
+            position: absolute;
+            bottom: 0px;
+            height: 15%;
+            width: 100%;
+            background-color: rgb(164, 233, 233);
+        }
+        footer>ul:first-of-type{
+            position: absolute;
+            left: 42%;
+        }
+        
+        footer>ul>li{
+            list-style-type: none;
+        }
+        footer>ul>li>a{
+            text-decoration: none;
+        
+        }
+        footer>ul>li>a:hover{
+            color: rgb(255, 255, 255);
+        }
+        footer>ul:last-of-type{
+            position: absolute;
+            top: 20%;
+            right: 44%;
+        }
+    
+    }
+    
+    
+    
+    
+    
+    /* Large screens ----------- */
+    @media only screen  and (min-width : 1824px) {
+    /* Styles */
+
+    body{
+        margin: 0px;
+    }
+    header{
+        position: absolute;
+        top: 0px;
+        height: 15%;
+        width: 100%;
+        background-color: rgb(164, 233, 233);
+    }
+    .title{
+        position: absolute;
+        left: 40%;
+        
+    
+    }
+    .navbar{
+        position: absolute;
+        top: 50%;
+        left: 43%;
+    }
+    .navbar>p{
+        font-size: 25px;
+        text-shadow: ;
+    }
+    .navbar>p>a{
+        text-decoration: none;
+    
+    }
+    .navbar>p>a:hover{
+        color: rgb(255, 255, 255);
+    }
+    .inner{
+        position: absolute;
+        top: 15%;
+    }
+    .inner{
+        height: 25%;
+        width: 100%;
+    }
+    .inner>img:first-of-type{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    }
+    .inner>ul{
+        position: absolute;
+        top: 25%;
+        right: 20%;
+    }
+    .inner>h1{
+        position: absolute;
+        top: 17%;
+        right: 17%;
+    }
+    .inner>ul>li{
+        list-style-type: none;
+    }
+    .inner>ul>li>a{
+        color: #5252e6;
+        text-decoration: none;
+    }
+    .inner>ul>li>a:hover{
+        color: rgb(164, 233, 233);
+    }
+    .inner>img:nth-of-type(2){
+        position: absolute;
+        top:100%;
+        right: 60%;
+    }
+    .inner>img:nth-of-type(3){
+        position: absolute;
+        top:20% ;
+        left: 43%;
+    }
+    
+    
+    footer{
+        position: absolute;
+        bottom: 0px;
+        height: 15%;
+        width: 100%;
+        background-color: rgb(164, 233, 233);
+    }
+    footer>ul:first-of-type{
+        position: absolute;
+        left: 42%;
+        top: 5%;
+    }
+    
+    footer>ul>li{
+        list-style-type: none;
+    }
+    footer>ul>li>a{
+        text-decoration: none;
+    
+    }
+    footer>ul>li>a:hover{
+        color: rgb(255, 255, 255);
+    }
+    footer>ul:last-of-type{
+        position: absolute;
+        top: 15%;
+        right: 44%;
+    }
+    
+    }
+    
+
+
+
+
